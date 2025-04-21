@@ -14,7 +14,7 @@ const ChatHeader: React.FC<ChatHeaderProps> = ({ userCount = 0 }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            <h1 className="text-xl font-semibold text-gray-900">Supabase Chat</h1>
+            <h1 className="text-xl font-semibold text-gray-900">Baatchit</h1>
             <div className="ml-3 px-2 py-1 bg-indigo-100 text-indigo-800 rounded-full flex items-center">
               <Users className="h-3.5 w-3.5 mr-1" />
               <span className="text-xs font-medium">{userCount}</span>
